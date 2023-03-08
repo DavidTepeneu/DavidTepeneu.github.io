@@ -28,7 +28,7 @@ twitter_username: IDon'tUsTwitterLOL
 github_username: DavidTepeneu
 
 # Build settings
-theme: hacker
+theme: minima
 plugins:
   - jekyll-feed
 
