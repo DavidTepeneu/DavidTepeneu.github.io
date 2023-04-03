@@ -54,15 +54,15 @@ export default function Home() {
         
         <section>
           <div className="py-8">
-            <h3 className="text-left text-3xl dark:text-gray-200">Some of my accomplishments!</h3>
+            <h3 className="text-left text-3xl dark:text-gray-200 h-1">Some of my accomplishments!</h3>
           </div>
           <div className="gap-y-2">
             <div className="shadow-2xl dark:shadow-lg dark:shadow-white p-5 rounded-xl mt-5 mb-5">
             <p className=" leading-none font-semibold text-center text-md text-gray-800 dark:text-gray-300 md:text-lg lg:text-xl">
-              As a sophomore studying CS in college I have already taken the following courses CS related courses:
+              As a sophomore studying CS in college I have already taken the following CS related courses:
             </p>
             <br></br>
-              <ul className="px-9 list-disc text-left text-xs lg:text-base md:text-sm">
+              <ul className="px-9 sm:list-disc sm:text-left md:list-none md:text-center lg:list-none lg:text-center text-xs lg:text-base md:text-sm">
                 <li className="dark:text-gray-300 font-semibold">
                   Programming Fundamentals
                 </li>
