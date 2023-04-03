@@ -55,6 +55,7 @@ export default function Home() {
         <section>
           <div className="py-8">
             <h3 className="text-left text-3xl dark:text-gray-200 h-4">Some of my accomplishments!</h3>
+            <br></br>
           </div>
           <div className="gap-y-2">
             <div className="shadow-2xl dark:shadow-lg dark:shadow-white p-5 rounded-xl mt-5 mb-5">
