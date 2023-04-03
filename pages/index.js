@@ -25,7 +25,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white sm:px-5 px-10 md:px-20 lg:px-40 dark:bg-gray-900">
+      <main className="bg-white px-10 sm:px-5 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen md:text-xl">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="font-avo text-xl md:text-3xl lg:text-3xl dark:text-white">David Tepeneu</h1>
@@ -57,12 +57,12 @@ export default function Home() {
             <h3 className="text-left text-3xl dark:text-gray-200">Some of my accomplishments!</h3>
           </div>
           <div className="gap-y-2">
-            <div className="shadow-2xl dark:shadow-lg dark:shadow-white p-10 rounded-xl mt-5 mb-10">
-            <p className="font-semibold text-center text-md leading-8 text-gray-800 dark:text-gray-300 md:text-lg lg:text-xl">
+            <div className="shadow-2xl dark:shadow-lg dark:shadow-white p-5 rounded-xl mt-5 mb-5">
+            <p className=" leading-none font-semibold text-center text-md text-gray-800 dark:text-gray-300 md:text-lg lg:text-xl">
               As a sophomore studying CS in college I have already taken the following courses CS related courses:
             </p>
             <br></br>
-              <ul className="px-9 text-center text-xs lg:text-base md:text-sm">
+              <ul className="px-9 list-disc text-left text-xs lg:text-base md:text-sm">
                 <li className="dark:text-gray-300 font-semibold">
                   Programming Fundamentals
                 </li>
@@ -92,10 +92,10 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="shadow-2xl dark:shadow-lg dark:shadow-white p-3 rounded-xl mt-5 mb-10">
+            <div className="shadow-2xl dark:shadow-lg dark:shadow-white p-3 rounded-xl mt-5 mb-5">
               <Image id="mimicID" className="mx-auto object-fill cursor-pointer dark:text-white rounded-xl" src={mimic} onClick={() => window.open("https://github.com/acm-projects/Mimic")}/>
             </div>
-            <div className="shadow-2xl dark:shadow-lg dark:shadow-white p-3 rounded-xl mt-5 mb-10">
+            <div className="shadow-2xl dark:shadow-lg dark:shadow-white p-3 rounded-xl mt-5 mb-5">
               <Image id="momentID" className="mx-auto object-fill cursor-pointer rounded-xl" src={moment} onClick={() => window.open("https://github.com/acm-projects/In-the-Moment")}/>
             </div>
           </div>
