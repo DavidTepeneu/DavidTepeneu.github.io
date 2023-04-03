@@ -25,29 +25,29 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
+      <main className="bg-white sm:px-5 px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen md:text-xl">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="font-avo text-3xl md:text-5xl dark:text-white">David Tepeneu</h1>
-            <ul className="flex items-center">
-              <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:text-white"/></li>
+            <h1 className="font-avo text-xl md:text-3xl lg:text-3xl dark:text-white">David Tepeneu</h1>
+            <ul className="flex items-center lg:gap-5">
+              <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-xl md:text-3xl lg:text-3xl dark:text-white"/></li>
               <li>
-                <a className="bg-gradient-to-r from-pink-500 to-orange-500 dark:bg-gradient-to-r dark:from-cyan-500 dark:to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:text-gray-800" href="https://github.com/DavidTepeneu/DuhveedTeps/blob/main/Resume.pdf" target="_blank">Resume</a></li>
+                <a className="text-base md:text-3xl lg:text-3xl bg-gradient-to-r from-pink-500 to-orange-500 dark:bg-gradient-to-r dark:from-cyan-500 dark:to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:text-gray-800" href="https://github.com/DavidTepeneu/DuhveedTeps/blob/main/Resume.pdf" target="_blank">Resume</a></li>
               <li>
-              <p className="py-2 rounded-md ml-8 dark:text-gray-100 cursor-pointer" onClick={() => window.open("mailto:david.tepeneu@gmail.com?subject=Fan Mail&body=I love you <3")}>Email Me</p>
+              <p className="text-base md:text-3xl lg:text-3xl py-2 rounded-md ml-8 dark:text-gray-100 cursor-pointer" onClick={() => window.open("mailto:david.tepeneu@gmail.com?subject=Fan Mail&body=I love you <3")}>Email Me</p>
               </li>
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent font-medium md:text-6xl dark:bg-gradient-to-r dark:from-cyan-400 dark:to-green-300">David Tepeneu</h2>
-            <h3 className="text-2xl py-2 md:text-3xl dark:text-gray-200">Developer and Manager.</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-300">Computer Science Sophomore at the <span className="text-blue-500 dark:text-cyan-500 cursor-pointer" onClick={() => window.open("https://www.utdallas.edu/")}>University of Texas at Dallas</span>. I'm always looking for something new to learn :D</p>
+            <h2 className=" text-4xl md:text-5xl lg:text-6xl py-2 bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent font-medium dark:bg-gradient-to-r dark:from-cyan-400 dark:to-green-300">David Tepeneu</h2>
+            <h3 className="text-2xl md:text-2xl lg:text-3xl py-2 dark:text-gray-200">Developer and Manager.</h3>
+            <p className="text-md md:text-xl lg:text-2xl  py-5 leading-8 text-gray-800 max-w-xl mx-auto dark:text-gray-300">Computer Science Sophomore at the <span className="text-blue-500 dark:text-cyan-500 cursor-pointer" onClick={() => window.open("https://www.utdallas.edu/")}>University of Texas at Dallas</span>. I'm always looking for something new to learn :D</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-1 text-gray-600">
             <AiFillLinkedin onClick={() => window.open('https://www.linkedin.com/in/david-tepeneu/')} className="cursor-pointer dark:text-gray-300"/>
             <AiFillYoutube  onClick={() => window.open('https://www.youtube.com/@davidtepeneu7007')} className="cursor-pointer dark:text-gray-300"/>
           </div>
-          <div className="relative mx-auto shadow-2xl rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
+          <div className=" mx-auto block relative shadow-2xl rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={dive} layout="fill" objectFit="cover"/>
           </div>
         </section>
