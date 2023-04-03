@@ -25,7 +25,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white px-10 sm:px-5 md:px-20 lg:px-40 dark:bg-gray-900">
+      <main className="bg-white px-10 sm:px-5 md:px-10 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen md:text-xl">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="font-avo text-xl md:text-3xl lg:text-3xl dark:text-white">David Tepeneu</h1>
@@ -54,11 +54,11 @@ export default function Home() {
         
         <section>
           <div className="py-8">
-            <h3 className="text-left text-3xl dark:text-gray-200 h-1">Some of my accomplishments!</h3>
+            <h3 className="text-left text-3xl dark:text-gray-200 h-4">Some of my accomplishments!</h3>
           </div>
           <div className="gap-y-2">
             <div className="shadow-2xl dark:shadow-lg dark:shadow-white p-5 rounded-xl mt-5 mb-5">
-            <p className=" leading-none font-semibold text-center text-md text-gray-800 dark:text-gray-300 md:text-lg lg:text-xl">
+            <p className=" leading-1 font-semibold text-center text-md text-gray-800 dark:text-gray-300 md:text-lg lg:text-xl">
               As a sophomore studying CS in college I have already taken the following CS related courses:
             </p>
             <br></br>
