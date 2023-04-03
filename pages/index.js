@@ -32,9 +32,9 @@ export default function Home() {
             <ul className="flex items-center">
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:text-white"/></li>
               <li>
-                <a className="bg-gradient-to-r from-pink-500 to-orange-500 dark:bg-gradient-to-r dark:from-cyan-500 dark:to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:text-gray-800 dark:font-semibold" href="https://github.com/DavidTepeneu/DuhveedTeps/blob/main/Resume.pdf" target="_blank">Resume</a></li>
+                <a className="bg-gradient-to-r from-pink-500 to-orange-500 dark:bg-gradient-to-r dark:from-cyan-500 dark:to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:text-gray-800" href="https://github.com/DavidTepeneu/DuhveedTeps/blob/main/Resume.pdf" target="_blank">Resume</a></li>
               <li>
-              <p className="py-2 rounded-md ml-8 dark:text-gray-100 dark:font-semibold cursor-pointer" onClick={() => window.open("mailto:david.tepeneu@gmail.com?subject=Fan Mail&body=I love you <3")}>Email Me</p>
+              <p className="py-2 rounded-md ml-8 dark:text-gray-100 cursor-pointer" onClick={() => window.open("mailto:david.tepeneu@gmail.com?subject=Fan Mail&body=I love you <3")}>Email Me</p>
               </li>
             </ul>
           </nav>
