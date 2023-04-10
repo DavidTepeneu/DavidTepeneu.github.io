@@ -64,31 +64,31 @@ export default function Home() {
             <div className="shadow-2xl dark:shadow-lg dark:shadow-white p-5 rounded-xl mb-5">
               <ul className="px-9 sm:list-disc sm:text-left md:list-none md:text-center lg:list-none lg:text-center text-xs lg:text-base md:text-sm">
                 <li className="dark:text-gray-300 lg:text-lg">
-                  Programming Fundamentals
+                  CS 1200 - Programming Fundamentals
                 </li>
                 <li className="dark:text-gray-300 lg:text-lg">
-                  Intro to Comp Sci & Software
+                  CS 1336 - Intro to Comp Sci & Software
                 </li>
                 <li className="dark:text-gray-300 lg:text-lg">
-                  Discrete Math for Computing
+                  CS 2305 - Discrete Math for Computing
                 </li>
                 <li className="dark:text-gray-300 lg:text-lg">
-                  Computer Science II
+                  CS 2336 - Computer Science II
                 </li>
                 <li className="dark:text-gray-300 lg:text-lg">
-                  Computer Architecture
+                  CS 2340 - Computer Architecture
                 </li>
                 <li className="dark:text-gray-300 lg:text-lg">
-                  Discrete Math for Computing II
+                  CS 3305 - Discrete Math for Computing II
                 </li>
                 <li className="dark:text-gray-300 lg:text-lg">
-                  Probability and Stats in CS
+                  CS 3341 - Probability and Stats in CS
                 </li>
                 <li className="dark:text-gray-300 lg:text-lg">
-                  Data Structures & Algorithm Analysis
+                  CS 3345 - Data Structures & Algorithm Analysis
                 </li>
-                <li className="dark:text-gray-300">
-                  Software Engineering
+                <li className="dark:text-gray-300 lg:text-lg">
+                  CS 3354 - Software Engineering
                 </li>
               </ul>
             </div>
