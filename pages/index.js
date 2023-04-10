@@ -32,7 +32,7 @@ export default function Home() {
             <ul className="flex items-center lg:gap-5">
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-xl md:text-3xl lg:text-3xl dark:text-white"/></li>
               <li>
-                <a className="text-base md:text-3xl lg:text-3xl bg-gradient-to-r from-pink-500 to-orange-500 dark:bg-gradient-to-r dark:from-cyan-500 dark:to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:text-gray-800" href="https://github.com/DavidTepeneu/DuhveedTeps/blob/main/Resume.pdf" target="_blank">Resume</a></li>
+                <a className="text-base md:text-3xl lg:text-3xl bg-gradient-to-r from-pink-500 to-orange-500 dark:bg-gradient-to-r dark:from-cyan-500 dark:to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:text-gray-800" href="./Resume.pdf" target="_blank">Resume</a></li>
               <li>
               <p className="text-base md:text-3xl lg:text-3xl py-2 rounded-md ml-8 dark:text-gray-100 cursor-pointer" onClick={() => window.open("mailto:david.tepeneu@gmail.com?subject=Fan Mail&body=I love you <3")}>Email Me</p>
               </li>
@@ -53,42 +53,41 @@ export default function Home() {
         </section>
         
         <section>
-          <div className="py-8">
-            <h3 className="text-left text-3xl dark:text-gray-200 h-4">Some of my accomplishments!</h3>
+          <div>
+            <h3 className="text-3xl py-1 dark:text-gray-200">Some of my accomplishments!</h3>
+            <p className="text-md lg:text-lg py-2 leading-8 text-gray-800 dark:text-gray-300">
+              As a sophomore studying CS in college I have already taken the following CS related courses and completed the following projects!
+            </p>
             <br></br>
           </div>
           <div className="gap-y-2">
-            <div className="shadow-2xl dark:shadow-lg dark:shadow-white p-5 rounded-xl mt-5 mb-5">
-            <p className=" leading-1 font-semibold text-center text-md text-gray-800 dark:text-gray-300 md:text-lg lg:text-xl">
-              As a sophomore studying CS in college I have already taken the following CS related courses:
-            </p>
-            <br></br>
+            <div className="shadow-2xl dark:shadow-lg dark:shadow-white p-5 rounded-xl mb-5">
               <ul className="px-9 sm:list-disc sm:text-left md:list-none md:text-center lg:list-none lg:text-center text-xs lg:text-base md:text-sm">
-                <li className="dark:text-gray-300 font-semibold">
+                <li className="dark:text-gray-300 lg:text-lg">
                   Programming Fundamentals
                 </li>
-                <li className="dark:text-gray-300 font-semibold">
+                <li className="dark:text-gray-300 lg:text-lg">
                   Intro to Comp Sci & Software
                 </li>
-                <li className="dark:text-gray-300 font-semibold">
+                <li className="dark:text-gray-300 lg:text-lg">
                   Discrete Math for Computing
                 </li>
-                <li className="dark:text-gray-300 font-semibold">
+                <li className="dark:text-gray-300 lg:text-lg">
                   Computer Science II
                 </li>
-                <li className="dark:text-gray-300 font-semibold">
+                <li className="dark:text-gray-300 lg:text-lg">
                   Computer Architecture
                 </li>
-                <li className="dark:text-gray-300 font-semibold">
+                <li className="dark:text-gray-300 lg:text-lg">
                   Discrete Math for Computing II
                 </li>
-                <li className="dark:text-gray-300 font-semibold">
+                <li className="dark:text-gray-300 lg:text-lg">
                   Probability and Stats in CS
                 </li>
-                <li className="dark:text-gray-300 font-semibold">
+                <li className="dark:text-gray-300 lg:text-lg">
                   Data Structures & Algorithm Analysis
                 </li>
-                <li className="dark:text-gray-300 font-semibold">
+                <li className="dark:text-gray-300">
                   Software Engineering
                 </li>
               </ul>
@@ -103,12 +102,10 @@ export default function Home() {
         </section>
         <section>
           <div>
+            <br></br>
             <h3 className="text-3xl py-1 dark:text-gray-200">Photography</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
-              I've always been interested in photography, gathering over 1 million views on  <span className="text-blue-500 cursor-pointer dark:text-cyan-500" onClick={() => window.open("https://www.google.com/maps/contrib/101698129330875079719/photos/@10.7721094,-43.0116494,2z/data=!3m1!4b1!4m3!8m2!3m1!1e1")}>google (check me out)</span> during my time in middle school alone!
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
-              Here are a bunch of pictures I am proud of!
+            <p className="text-md py-2 lg:text-lg leading-8 text-gray-800 dark:text-gray-300">
+              I've always been interested in photography, gathering over 1 million views on  <span className="text-blue-500 cursor-pointer dark:text-cyan-500" onClick={() => window.open("https://www.google.com/maps/contrib/101698129330875079719/photos/@10.7721094,-43.0116494,2z/data=!3m1!4b1!4m3!8m2!3m1!1e1")}>google (check me out)</span> during my time in middle school alone! Here are a bunch of pictures I am proud of!
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
