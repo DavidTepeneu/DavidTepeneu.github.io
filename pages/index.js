@@ -34,7 +34,7 @@ export default function Home() {
               <li>
                 <a className="text-base md:text-3xl lg:text-3xl bg-gradient-to-r from-pink-500 to-orange-500 dark:bg-gradient-to-r dark:from-cyan-500 dark:to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:text-gray-800" href="./Resume.pdf" target="_blank">Resume</a></li>
               <li>
-              <p className="text-base md:text-3xl lg:text-3xl py-2 rounded-md ml-8 dark:text-gray-100 cursor-pointer" onClick={() => window.open("mailto:david.tepeneu@gmail.com?subject=Fan Mail&body=I love you <3")}>Email Me</p>
+              <p className="text-base md:text-3xl lg:text-3xl py-2 rounded-md ml-8 dark:text-gray-100 cursor-pointer" onClick={() => window.open("mailto:david.tepeneu@gmail.com?subject=Fan Mail&body=We love you <3")}>Email Me</p>
               </li>
             </ul>
           </nav>
